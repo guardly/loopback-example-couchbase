@@ -1,0 +1,58 @@
+{
+  "name": "beer",
+  "plural": "Beer",
+  "properties": {
+    "docId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "abv": {
+      "type": "number",
+      "required": true
+    },
+    "ibu": {
+      "type": "number",
+      "required": true
+    },
+    "srm": {
+      "type": "number",
+      "required": true
+    },
+    "upc": {
+      "type": "number",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "brewery_id": {
+      "type": "string",
+      "required": true
+    },
+    "updated": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "style": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,62 @@
+{
+  "name": "brewery",
+  "plural": "Brewery",
+  "properties": {
+    "docId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": false
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": false
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "updated": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "address": {
+      "type": "array",
+      "required": true
+    },
+    "geo": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

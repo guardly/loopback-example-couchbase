@@ -1,0 +1,26 @@
+{
+  "name": "Person",
+  "plural": "People",
+  "properties": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "Age": {
+      "type": "number",
+      "required": true
+    },
+    "DOB": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
