@@ -1,17 +1,17 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "couchbasedb": {
-    "host": "192.168.75.144",
-    "port": 8091,
-    "name": "couchbasedb",
-    "n1qlport": 8093,
-    "connector": "couchbase",
-    "bucket": "beer-sample",
-    "env": "debugging",
-    "connectionTimeout": 20000,
-    "operationTimeout": 15000
-  }
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "couchbase": {
+        "host": "localhost",
+        "port": 8091,
+        "name": "couchbasedb",
+        "n1qlport": 8093,
+        "connector": "couchbase",
+        "bucket": "beer-sample",
+        "env": "debugging",
+        "connectionTimeout": 20000,
+        "operationTimeout": 15000
+    }
 }

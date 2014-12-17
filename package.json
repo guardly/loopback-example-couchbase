@@ -1,15 +1,49 @@
 {
-  "name": "loopback2.0_mySimpleAPI",
-  "version": "0.0.0",
-  "main": "server/server.js",
-  "dependencies": {
-    "compression": "^1.0.3",
-    "errorhandler": "^1.1.1",
-    "loopback": "~2.0.0-beta5",
-    "loopback-boot": "2.0.0-beta2",
-    "loopback-datasource-juggler": "~2.0.0-beta2"
-  },
-  "optionalDependencies": {
-    "loopback-explorer": "^1.1.0"
-  }
+    "name": "loopback-example-couchbase",
+    "version": "1.0.0",
+    "description": "Example app for Loopback Couchbase Connector",
+    "main": "server/server.js",
+
+    "keywords": [
+        "StrongLoop",
+        "LoopBack",
+        "Couchbase",
+        "DataSource",
+        "Connector"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/guardly/loopback-example-couchbase.git"
+    },
+    "dependencies": {
+        "couchbase": "^2.0.1",
+        "compression": "^1.0.3",
+        "errorhandler": "^1.1.1",
+        "loopback": "^2.8.6",
+        "loopback-boot": "^2.5.1",
+        "loopback-connector": "^1.2.0",
+        "loopback-datasource-juggler": "^2.12.0",
+        "loopback-connector-couchbase": "^1.0.1"
+    },
+    "optionalDependencies": {
+        "loopback-explorer": "^1.6.2"
+    },
+    "license": {
+        "name": "MIT",
+        "url": "https://github.com/guardly/loopback-example-couchbase/blob/master/LICENSE.md"
+    },
+    "bugs": {
+        "url": "https://github.com/guardly/loopback-example-couchbase/issues"
+    },
+    "homepage": "https://github.com/guardly/loopback-example-couchbase",
+    "maintainers": [{
+        "name": "ecguardly",
+        "email": "eric@guardly.com"
+    }, {
+        "name": "nolandubeau",
+        "email": "nolan@guardly.com"
+    }, {
+        "name": "jbroughton72",
+        "email": "jason@guardly.com"
+    }]
 }
