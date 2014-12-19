@@ -4,13 +4,12 @@
         "connector": "memory"
     },
     "couchbase": {
-        "host": "localhost",
+        "host": "192.168.75.144",
         "port": 8091,
-        "name": "couchbasedb",
+        "password": "123456",
         "n1qlport": 8093,
         "connector": "couchbase",
-        "bucket": "beer-sample",
-        "env": "debugging",
+        "database": "beer-sample",
         "connectionTimeout": 20000,
         "operationTimeout": 15000
     }
