@@ -4,11 +4,17 @@
   "properties": {
     "docId": {
       "type": "string",
-      "required": true
+      "required": true,
+      "couchbase": {
+               "preserve": true
+      }      
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "couchbase": {
+               "preserve": true
+      }      
     },
     "abv": {
       "type": "number",
